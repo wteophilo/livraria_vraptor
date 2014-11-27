@@ -4,5 +4,6 @@ import java.util.List;
 
 public interface Estante {
 	public void guardar(Livro livro);
-	public List<Livro> todosOsLivros();
+	public List<Livro> todosOsLivros();	
+	public Livro buscaPorIsbn(String isbn);
 }

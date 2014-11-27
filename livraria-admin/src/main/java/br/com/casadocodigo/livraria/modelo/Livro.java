@@ -8,7 +8,7 @@ public class Livro {
 	private String descricao;
 	private String isbn;
 	private BigDecimal preco;
-	private Calendar dataPublicao;
+	private Calendar dataPublicacao;
 
 	public String getTitulo() {
 		return titulo;
@@ -42,12 +42,12 @@ public class Livro {
 		this.preco = preco;
 	}
 
-	public Calendar getDataPublicao() {
-		return dataPublicao;
+	public Calendar getDataPublicacao() {
+		return dataPublicacao;
 	}
 
-	public void setDataPublicao(Calendar dataPublicao) {
-		this.dataPublicao = dataPublicao;
+	public void setDataPublicao(Calendar dataPublicacao) {
+		this.dataPublicacao = dataPublicacao;
 	}
 
 }
