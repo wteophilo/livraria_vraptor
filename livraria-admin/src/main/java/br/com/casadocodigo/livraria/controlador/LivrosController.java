@@ -13,9 +13,11 @@ public class LivrosController {
 	
 	public void formulario(){}
 	
-	public void salva(Livro livro){
+	public void salva(Livro livro,Result result){
 		Estante estante = new UmaEstanteQualquer();
 		estante.guardar(livro);
+		result.include("mensagem","Livro salvo com sucesso!");
+		result.of(this).lista();
 	}
 	
 	public List<Livro>lista(){
