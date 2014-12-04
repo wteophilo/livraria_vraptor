@@ -7,9 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form method="post">
+	<form method="post" action="${linkTo[LivrosController].salva }">
 		<h2>Formulário de cadastro de livros</h2>
 		<ul>
+			<li>ID
+			<input type="hidden" name="livro.id" value="${livro.id}" /></li>
+			
 			<li>Titulo: <br/>
 				<input type = "text" name = "livro.titulo" value="${livro.titulo}" />
 			</li>

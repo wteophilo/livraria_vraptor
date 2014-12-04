@@ -8,7 +8,7 @@
 	</head>
 	<body>
 		<c:if test="${not empty mensagem}">
-			<p class="mensagem">${mensagem}</p>
+			<p class="mensagem">${mensagem}</p>	
 		</c:if>
 	
 		<h3>Lista de Livros</h3>
