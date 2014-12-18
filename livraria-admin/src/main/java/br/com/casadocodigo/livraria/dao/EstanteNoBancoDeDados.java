@@ -30,5 +30,4 @@ public class EstanteNoBancoDeDados implements Estante {
 	public Livro buscaPorIsbn(String isbn) {
 		return this.livroDao.buscaPorIsb(isbn);
 	}
-
 }
