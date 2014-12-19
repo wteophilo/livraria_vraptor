@@ -4,9 +4,11 @@ import java.util.List;
 
 import com.thoughtworks.xstream.XStream;
 
+import br.com.caelum.vraptor.ioc.Component;
 import br.com.casadocodigo.livrariasite.modelo.Acervo;
 import br.com.casadocodigo.livrariasite.modelo.Livro;
 
+@Component
 public class AcervoNoAdmin implements Acervo{
 		
 	private ClienteHTTP http;

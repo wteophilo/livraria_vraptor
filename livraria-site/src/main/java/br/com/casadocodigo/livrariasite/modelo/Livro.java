@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.Calendar;
 
 public class Livro {
+	private Long id;
 	private String isbn;
 	private String titulo;
 	private String descricao;
@@ -49,4 +50,14 @@ public class Livro {
 	public void setDataPublicacao(Calendar dataPublicacao) {
 		this.dataPublicacao = dataPublicacao;
 	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+	
+	
 }
